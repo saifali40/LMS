@@ -1,0 +1,246 @@
+/* 
+Primary color 6600cc
+	+++++++++++++++++++++++++++++++ooooooooooooooooooo
+	++++++++++++++++++++++++++++oooooooooooooooooooooo
+	++++++++++++++++++++++++++oooooooooooooooooooooooo
+	++++++++++++++++++++++oooooooooooooooooooooooooooo
+	++++++++//////////+++/////////oo:         +ooooooo
+	++++++++//////////+++/////////oo-         +ssooooo
+	++++++++//////////oo+/////////oo-         +ssssooo
+	++++++++//////////oo+///////+/oo-         +sssssso
+	++++++++//////////oo+/++++++++oo:         +sssssss
+	++++++++++oooooooooooooooooooooo:         +sssssss
+	+++++++o//////++++oo.         +o:         +sssssss
+	+++++ooo/////////+oo.         +s:         +sssssss
+	+++ooooo/////////+oo.         +s:         +sssssss
+	+ooooooo////////++oo.         +s:         +sssssss
+	+ooooooo+/////++++oo.         +s:`````````osssssss
+	+ooooooooooooooooooo.         +sssssssssssssssssss
+	+ooooooo.````````.so.         +s/.........osssssss
+	oooooooo`        `ss.         +s:         +sssssss
+	oooooooo`        `ss-         +s:         +sssssss
+	oooooooo`        `ss-         +s:         +sssssss
+	oooooooo`        `ss-         +s:         +sssssss
+	ooooooooooooooooossssssssssssssssooooooooossssssss
+	ooooooooooosssssssssssssssssssssssssssssssssssssss
+	o------------------setmore|saif.ali@a-cti.com----s
+	ooooooooooooooosssssssssssssssssssssssssssssssssss
+
+*/
+.bodyClass{
+	background-color:#27C3BB;
+}
+.loginForm{
+	background-color:white;
+	margin-top:100px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.logoHead{
+	width:30%;
+	margin-top:20px;
+}
+.row{
+	margin-top:20px;
+}
+.loginField{
+    display: block;
+    width: 100%;
+    height: 41px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0px;
+    border-bottom:1px solid #ccc;    
+}
+.loginField:focus{
+    border: 0px;    
+}
+.submitButton{
+	display: block;
+    width: 100%;
+    height: 41px;
+    margin-bottom:10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #ff6666;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out 1s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+}
+.submitButton:hover{
+	background-color: #84292d;
+	decoration:none;
+}
+.google{
+	background-color:#ff6666;
+}
+.googleAuth{
+	display: block;
+    width: 100%;
+    height: 41px;
+    margin-bottom:10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #ff6666;
+    background-image: none;
+    border: none;
+    font-size:larger;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out 1s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+}
+.navbar{
+	background-color:black;
+}
+
+
+.sidenav {
+	height: 100%;
+	width: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a, .sidenav a:link, .sidenav a:visited {
+	text-decoration: none;
+	font-size: 10pt;
+	color: #818181;
+	text-align:center;
+	display: block;
+	transition: 0.3s;
+	margin:5px;
+}
+
+.sidenav a:hover, .sidenav a:focus{
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+
+.demo{
+	padding:initial;
+	margin:initial;
+	background:#000;
+	border:1px solid #000;
+	transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+}
+
+.demo:hover{
+	color:#000;
+	padding:initial;
+	margin:initial;
+	border:1px solid #818181;
+	transition: border-color ease-in-out 1s,box-shadow ease-in-out .15s;
+}
+.head{
+	margin-top:-40px;
+	color:white;
+}
+.display{
+	height: 100%;
+	width: 100px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.td1{
+	padding:10px;
+}
+
+.td2{
+	padding:10px;
+}
+.thead-inverse{
+	background-color:black;
+	color:white;
+	border:1px solid black;
+	text-align:center;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.tbody1{
+	background-color:white;
+	border:1px solid black;	
+}
+.tbody1 th{
+	border:1px solid black;
+	width:25%
+	text-align:center;
+}
+.tbody1 td{
+	border:1px solid black;
+	width:25%;
+	text-align:center;
+}
+
+.row1 .label{
+	display:table-cell;
+	color:black;
+    margin: inherit;
+    position: relative;
+    margin:10px;
+    font-size:15px;
+    
+}
+.row1 input, .row select{
+	display:table-cell;
+	height:30px;
+	width:100%;
+	margin:10px;
+}
+.row1 textarea{
+	width:100%;
+	margin:10px;	
+}
+.table2 .tr1{
+	background-color:black;
+	color:white;
+	width:100%;
+}
+.table2 tr th{
+	text-align:center;
+	width:14.2%;
+	border:1px solid white;
+}
+.table2 tr td{
+	text-align:center;
+	width:14.2%;
+	border:1px solid black;
+}
